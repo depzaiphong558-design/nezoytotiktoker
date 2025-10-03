@@ -53,13 +53,13 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
     end
 })
    AddButton(Tab3o, {
-     Name = "Server Private",
+     Name = "Key speed",
     Callback = function()
 	    setclipboard("EaxlwrCgMRxGElhNGnVeEFfnpmgLjjce")
     end
 })
-   AddButton(Tab1o, {
-     Name = "Redz Hub Come Soon",
+   AddButton(Tab3o, {
+     Name = "Speed Hub",
     Callback = function()
 	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
   end
