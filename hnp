@@ -22,7 +22,7 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
 
        MinimizeButton({
        Image = "http://www.roblox.com/asset/?id=83190276951914",
-       Size = {60, 60},
+       Size = {40, 60},
        Color = Color3.fromRGB(10, 10, 10),
        Corner = true,
        Stroke = false,
@@ -31,8 +31,8 @@ loadstring(game:HttpGet(("https://raw.githubusercontent.com/daucobonhi/Ui-Redz-V
       
 ------ Tab
      local Tab1o = MakeTab({Name = "Script Farm"})
-     local Tab2o = MakeTab({Name = "Sab"})
-     
+     local Tab2o = MakeTab({Name = "Sab server private"})
+     local Tab3o = MakeTab({Name = "Speed Hub-key"})
 ------- BUTTON
     
     AddButton(Tab1o, {
@@ -52,3 +52,15 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
 	    setclipboard("https://www.roblox.com/share?code=35dc8e4ccf774543bc0f3b4507fc52ed&type=Server")
     end
 })
+   AddButton(Tab3o, {
+     Name = "Server Private",
+    Callback = function()
+	    setclipboard("EaxlwrCgMRxGElhNGnVeEFfnpmgLjjce")
+    end
+})
+   AddButton(Tab1o, {
+     Name = "Redz Hub Come Soon",
+    Callback = function()
+	  loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Speed%20Hub%20X.lua", true))()
+  end
+  })
