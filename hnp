@@ -55,7 +55,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/realredz/BloxFruits/r
    AddButton(Tab3o, {
      Name = "Key speed",
     Callback = function()
-	    setclipboard("EaxlwrCgMExGElhNGnVeEFfnpmgLjjce")
+	    setclipboard("EaxIwrCgMExGElhNGnVeEFfnpmgLjjce")
     end
 })
    AddButton(Tab3o, {
